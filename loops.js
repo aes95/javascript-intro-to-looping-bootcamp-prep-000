@@ -1,5 +1,7 @@
 function forLoop(arr){
   for (let i = 0; i<25, i++){
-    arr[i] = 
+    if (i==1){
+      arr[i] = 
+    } 
   }
 }
