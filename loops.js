@@ -15,8 +15,14 @@ function whileLoop(num){
   }
   return 'done';
 }
+function incrementVariable() {
+  i = i + 1;
+}
 function doWhileLoop(arr){
   do {
-    
+    arr.pop();
+  }while (arr.length > 0){
+    arr.pop();
   }
+  return arr;
 }
