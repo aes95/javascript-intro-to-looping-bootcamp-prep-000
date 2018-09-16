@@ -8,4 +8,10 @@ function forLoop(arr){
   }
   return arr;
 }
-console.log(forLoop([]))
+function whileLoop(num){
+  while(num >= 0){
+    console.log(num);
+    num -= 1;
+  }
+  return 'done';
+}
